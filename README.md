@@ -13,10 +13,10 @@ To write a python program for creating Echo Client and Echo Server using TCP Soc
 
 4.Send and receive the message using the send function in socket.
 
-## PROGRAM :
-## CLIENT :
-# Developed by:D. Vinitha Naidu
-# Register No: 212222230175
+# PROGRAM :
+# CLIENT :
+### Developed by:D. Vinitha Naidu
+### Register No: 212222230175
 ```
 import socket
 s=socket.socket()
@@ -26,9 +26,9 @@ while True:
     s.send(msg.encode())
     print("Server > ",s.recv(1024).decode())
 ```
-### SERVER :
-# Developed by:D.Vinitha 
-# Register No: 212222230175
+# SERVER :
+### Developed by:D.Vinitha 
+### Register No: 212222230175
 ```
 import socket
 s=socket.socket()
